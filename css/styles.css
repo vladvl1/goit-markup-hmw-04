@@ -27,6 +27,7 @@ img {
     --secondary-background:#F5F4FA;
     --shadow:rgba(0, 0, 0, 0.25);
     --line: #ECECEC;
+    --icon-color:#AFB1B8;
 }
 
 
@@ -139,12 +140,12 @@ color: var(--accent-color);
 }
 .icon_envelope{
 width: 16px;
-height: 12px;   
+height: 13px;   
 margin-right: 10px;
 fill: currentColor;
 }
 .icon_telefon{
-    width: 10px;
+    width: 12px;
     height: 16px; 
     margin-right: 10px;  
     fill: currentColor;
@@ -203,7 +204,6 @@ margin-top: 30px;
 .feature_box{
     display: flex;
     align-items: center;
-    text-align: center;
     justify-content: center;
     width:270px;
     height:120px;
@@ -281,7 +281,7 @@ text-align: center;
     height: 100%;
     border-radius: 50%;
     background-color: var(--white);
-    color: var(--primary-text-color);
+    color: var(--icon-color);
     }
 .socials_link:hover, 
 .socials_link:focus {
@@ -341,7 +341,7 @@ background-color:var(--secondary-background);
 .clients_item{
     width: 170px;
     height: 92px;
-    border: 1px solid var(--primary-text-color);
+    border: 1px solid var(--icon-color);
     border-radius: 4px;
 }
 .clients_item:hover,
@@ -352,7 +352,7 @@ background-color:var(--secondary-background);
     display: flex;
     justify-content: center;
     align-items: center;
-    color: var(--primary-text-color);
+    color: var(--icon-color);
     width: 100%;
     height: 100%;
 }
@@ -367,25 +367,26 @@ height: 60px;
 }
 
 /*Футер*/
+.two_columns{
+    display: flex;
+    align-items: baseline;
+}
 .footer_social{
-display: flex;
-align-items: baseline;
-margin-bottom: 20px;
+
 }
 .footer_text{
     color: var(--white);
-    margin-left: 156px;
     font-weight: 700;
 font-size: 14px;
 line-height: calc(16/14);
 letter-spacing: 0.03em;
-    
+    margin-bottom: 20px;
 }
 .adress{
-    display: flex;
+    margin-top: 20px;
 }
 .adress_list{
-    margin-right: 70px; 
+    margin-right: 90px; 
     width: 220px;
     
 }
